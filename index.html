@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <title>Portfolio</title>
+  </head>
+
+  <body>
+    <!-- NAVBAR -->
+    <nav>
+      <div class="left">
+        <a href="/">Zarin Tasnim</a>
+      </div>
+      <div class="right">
+        <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" >
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        </a>
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+
+    <main>
+      <!-- Section 1:Hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Assalamu Alaikum,I am Zarin!👋🏼</h2>
+          <p>
+            I am a passionate software engineer with a Bachelor's degree in
+            Information Technology. I’ve worked on several group projects that
+            strengthened my collaboration and communication skills. I enjoy
+            turning ideas into real-world solutions through clean, efficient
+            code, and I'm comfortable working in team environments where
+            learning, sharing, and problem-solving go hand in hand.
+          </p>
+          <div class="links">
+            <a href="#skills">
+              <i class="fa-solid fa-code"></i>
+              <span>Skills</span>
+            </a>
+
+            <a href="#testimony">
+              <i class="fa-solid fa-pen"></i>
+              <span>Testimony</span>
+            </a>
+
+            <a href="#contact">
+              <i class="fa-solid fa-envelope"></i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <div class="box">
+          <div class="content">
+            <img src="images/WhatsApp Image 2025-04-08 at 11.11.08_23d58783.jpg" alt="zarin tasnim headshot" />
+            <h2>Zarin Tasnim<br /><span>Frontend Developer</span></h2>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 2: Skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">
+          Proficient in working with HTML, CSS, Java, and C++. I enjoy building
+          clean, responsive websites and writing efficient code with a strong
+          grasp of object-oriented programming principles.
+        </div>
+
+        <div class="skills-container">
+          <div class="cell">
+            <img src="images/htmlpic.webp" alt="HTML logo" />
+            <span>HTML</span>
+          </div>
+          <div class="cell">
+            <img src="images/csslogo.webp" alt="CSS logo" />
+            <span>CSS</span>
+          </div>
+          <div class="cell">
+            <img src="images/181_Java_logo_logos-512.webp" alt="Java logo" />
+            <span>Java</span>
+          </div>
+          <div class="cell">
+            <img src="images/c++logo.webp" alt="C++ logo" />
+            <span>C++</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 3:Testimony -->
+      <section id="testimony" class="testimony-section">
+        <h2>Testimony</h2>
+        <div class="group">
+          <div class="person-details">
+            <img src="images/blank-profile-picture-973460_1280.webp"  alt="testimony giver"/>
+            <p>Mehrin Anannya</p>
+            <p>Assistant Professor</p>
+            <p>Institute of Information Technology</p>
+            <p>Jahangirnagar University</p>
+          </div>
+          <div class="text">
+            Zarin has shown consistent effort and a positive attitude throughout
+            her studies in Information Technology. She performed well in group
+            projects and demonstrated a good understanding of key concepts. Her
+            ability to work with others and her willingness to learn make her a
+            dependable team member. I believe she has the potential to grow
+            further in the software field.
+          </div>
+        </div>
+      </section>
+
+      <!-- Section 4:Contact  -->
+      <section id="Contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            I welcome any inquiries or opportunities for collaboration. Please
+            provide your name, email, and message in the fields below, and I
+            will respond to your request as soon as possible. Thank you for
+            reaching out.
+          </div>
+          <form>
+            <label for="name">Name</label>
+            <input type="text" id="name" />
+
+            <label for="email">Email</label>
+            <input type="email" id="email" />
+
+            <label for="message">Message</label>
+            <textarea id="message" cols="30" rows="10"></textarea>
+
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      
+    </main>
+  </body>
+</html>
